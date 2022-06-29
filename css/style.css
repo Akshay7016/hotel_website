@@ -86,6 +86,7 @@ p {
 
 .l-heading {
   font-size: 40px;
+  line-height: 1.2;
 }
 
 /* Padding */
@@ -110,7 +111,7 @@ p {
   color: #fff;
 }
 
-#navbar h1 {
+#navbar .logo {
   float: left;
   padding-top: 20px;
 }
@@ -160,8 +161,7 @@ p {
 
 /* Home Info */
 #home-info {
-  /* height: 400px; */
-  height: 350px;
+  height: 370px;
 }
 
 #home-info .info-img {
@@ -219,7 +219,9 @@ p {
 
 /* Testimonials */
 #testimonials {
-  height: 600px;
+  /* height: 600px; */
+  /* The div height will be equal to all the elements of that div. */
+  height: 100%;
   /* I we give padding to div and add background image. Then background image also goes into padding area. */
   background: url(../img/test-bg.jpg) no-repeat center center/cover;
   /* Overriding py-3 only for top padding */
